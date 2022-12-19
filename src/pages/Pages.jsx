@@ -12,7 +12,7 @@ export const Pages = () => {
   return (
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
-        <Route path='/' element={<Home />} />
+        <Route path='/recipe-app' element={<Home />} />
         <Route path='/cuisine/:type' element={<Cuisine />} />
         <Route path='/searched/:search' element={<Searched />} />
         <Route path='/recipe/:name' element={<Recipe />} />
