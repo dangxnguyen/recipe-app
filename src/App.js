@@ -12,7 +12,7 @@ export const App = () => {
         <BrowserRouter>
             <Nav>
               <GiKnifeFork />
-              <Logo to='/recipe-app'>Recipe</Logo>
+              <Logo to='/'>Recipe</Logo>
             </Nav>
             <Search />
             <Category />
